@@ -18,6 +18,7 @@ public class FirstClass {
         System.out.println("x: " + x);
         System.out.println("y: " + y);
         System.out.println("flag:" + flag);
+        System.out.println("flag:" + flag);
 
 
 
