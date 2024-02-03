@@ -39,9 +39,30 @@ public class HelloWorld {
 
             double digEntered = scanDigit.nextDouble();
             sum += digEntered;
-            System.out.println("Sum: " + sum);
+            System.out.println("Sum:" + sum);
 
         }
+
+        /*
+         * Even or Odd
+         * Gets integer input and prints if it's even or odd.
+         *
+         * Example(s):
+         * - If input is 5, print: "5 is odd"
+         * - If input is 4, print: "4 is even"
+         */
+
+        Scanner digitScan = new Scanner(System.in);
+
+        System.out.println("Enter a number: ");
+        int digitToTest = digitScan.nextInt();
+
+        if (digitToTest % 2 == 0){
+            System.out.println(digitToTest + " is even");
+        } else {
+            System.out.println(digitToTest + " is odd");
+        }
+
 
 
 
